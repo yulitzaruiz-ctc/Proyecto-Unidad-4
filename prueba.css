@@ -1,0 +1,25 @@
+@font-face {
+    font-family: te;
+    src: url(Steamed\ DEMO.otf);
+}
+body{
+    background: url(https://i.pinimg.com/564x/1a/09/72/1a09722580bfbeb9cd56310ca3dce2f5.jpg);
+    background-attachment: fixed;
+    background-position: right;
+
+
+    animation: movimiento 3s infinite linear alternate;
+}
+@keyframes movimiento{
+    from{
+      background-position:bottom left ;
+    }
+    to{
+        background-position: top right;
+    }
+}
+.titu{
+    font-family: te;
+    font-size: 30px;
+}
+

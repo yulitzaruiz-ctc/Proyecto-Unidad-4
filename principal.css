@@ -1,0 +1,191 @@
+body{
+    background: url(https://i.pinimg.com/originals/d5/30/fe/d530feaecb1463cc0d037da28bc4f49e.jpg);
+    background-attachment: fixed;
+    background-position: right;
+
+
+    animation: movimiento 3s infinite linear alternate;
+}
+@keyframes movimiento{
+    from{
+      background-position:bottom left ;
+    }
+    to{
+        background-position: top right;
+    }
+}
+@font-face {
+    font-family: titi;
+    src: url(Comix\ Loud.ttf);
+}
+.containe{
+    background: rgba(0, 0, 0, 0.932);
+    margin: 80px auto;
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(2, 1, 5);
+    text-align: center;
+}
+.container{
+    background: url(https://fondosmil.com/fondo/29568.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    animation: movimiento 3s infinite linear alternate;
+    margin: 20px auto 0 auto;
+    width: 500px;
+    box-shadow: 5px 5px 5px whitesmoke;
+    height: 500px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.resultado_título{
+    color: white;
+    font-family: te;
+    font-size: 30px;
+
+}
+.resultado_obtenido{
+    color: white;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.card{
+    height: 450px;
+}
+.pregunta_nombre{
+    font-family: titi;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(175, 10, 10);
+    margin-bottom: 0%;
+}
+.pregunta_contenido{
+    padding: 30px
+}
+.pregunta_enunciado{
+    text-align: justify;
+    height: 30px;
+}
+.pregunta_alternativas{
+    height: 50px;
+    line-height: 1.3;
+    font-family: te;
+
+}
+.pregunta_alternativas button{
+    display: block;
+    margin: 5px auto;
+    font-size: 1rem;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    background-color: rgb(118, 109, 199);
+    border: none;
+}
+.pregunta_alternativas button:hover{
+    background-color: rgb(75, 133, 105);
+}
+.avance{
+    vertical-align: bottom;
+}
+#barra-progreso{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagenj1{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCt3AmBPpHs11YzPj2DGWQqwkheb7b0PjCBocBqT7AhnSOaoszfHdYrxcfvY9PtjUCLmk&usqp=CAU);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;
+    margin: auto;
+    width: 200px;
+    height: 160px;
+}
+.imagenj2{
+    background: url(https://i.pinimg.com/originals/c7/1c/21/c71c212991f8ea1bfca5cb36ce69a532.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    margin: auto;
+    width: 200px;
+    height: 160px;
+}
+.imagenj4{
+    background: url(https://images-na.ssl-images-amazon.com/images/S/pv-target-images/a4e69df36da947a4c234e61d62552d309ac1125dc3a83542a923dfb4dbd5e217._RI_V_TTW_.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    margin: auto;
+    width: 200px;
+    height: 160px;
+}
+.imagenj5{
+    background: url(https://mx.web.img3.acsta.net/pictures/17/08/07/19/02/585628.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    margin: auto;
+    width: 200px;
+    height: 160px;
+
+}
+.imagenj6{
+    background: url(https://m.media-amazon.com/images/I/41DOSPxLcDL.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    margin: auto;
+    width: 200px;
+    height: 160px;}
+
+    .imagenj7{
+        background: url(https://img.captain-droid.com/wp-content/uploads/2017/05/ironman3wp-icon.png.webp);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        margin: auto;
+        width: 200px;
+        height: 160px;}
+
+        
+    .imagenj8{
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKHcCsOHCvvKImEUOvw5bdqZBoOSEuxLydF4iHJt6N1MIUvIASC8sLtMvchgcYly02g9A&usqp=CAU);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        margin: auto;
+        width: 200px;
+        height: 160px;}
+#estilo-demasiado{
+    color: greenyellow;
+    font-weight: 600;
+}
+#estilo-losuficiente{
+    color: rgb(98, 59, 131);
+    font-weight: 600;
+}
+#estilo-lobasico{
+    color: rgb(92, 33, 84);
+    font-weight: 600;
+}
+#estilo-lominimo{
+    color: greenyellow;
+    font-weight: 600;
+}
+#estilo-cero{
+    color: greenyellow;
+    font-weight: 600;
+}
+.resultado_obtenido{
+    padding-top: 50px;
+}
+.resultado_título{
+    margin-left: 100px;
+}

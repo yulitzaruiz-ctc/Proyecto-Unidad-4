@@ -1,0 +1,96 @@
+@font-face {
+    font-family: te;
+    src: url(Steamed\ DEMO.otf);
+}
+@font-face {
+    font-family: ta;
+    src: url(Steamed\ DEMO.otf);
+}
+
+body{
+    background: url(https://i.pinimg.com/originals/d5/30/fe/d530feaecb1463cc0d037da28bc4f49e.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    animation: movimiento 3s infinite linear alternate;
+}
+@keyframes movimiento{
+    from{
+      background-position:bottom left ;
+    }
+    to{
+        background-position: top right;
+    }
+}
+.titu{
+    font-family: te;
+    font-size: 30px;
+}
+.container{
+    height: 40px;
+}
+.navbar-collapse{
+    margin-left: 800px;
+}
+.principal{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px ;
+    text-align: center;
+    color: rgb(109, 124, 106);
+}
+.input {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 20px;
+    margin: 10px 10px;
+    width: 70%;
+}
+img{
+    margin-left: 130px;
+    display: flex;
+}
+
+.containe{
+    background: rgba(0, 0, 0, 0.856);
+    margin: 80px auto;
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(2, 1, 5);
+    text-align: center;
+}
+
+.titulo {
+    font-family: te;
+    font-size: 35px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+  }
+.boton {
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 800;
+    display: block;
+    padding: 5px 10px;
+    margin: 15px auto;
+    width: 30%;
+    text-align: center;
+  }
+
+.boton1{
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 800;
+    display: block;
+    padding: 5px 10px;
+    margin: 15px auto;
+    width: 30%;
+    text-align: center;
+}

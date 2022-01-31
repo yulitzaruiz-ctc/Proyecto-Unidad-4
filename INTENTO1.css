@@ -1,0 +1,63 @@
+@font-face {
+    font-family: te;
+    src: url(Steamed\ DEMO.otf);
+}
+
+body{
+    background: url(https://i.pinimg.com/originals/d5/30/fe/d530feaecb1463cc0d037da28bc4f49e.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    animation: movimiento 3s infinite linear alternate;
+}
+@keyframes movimiento{
+    from{
+      background-position:bottom left ;
+    }
+    to{
+        background-position: top right;
+    }
+}
+
+.titu{
+    font-family: te;
+    font-size: 30px;
+    color: red;
+}
+.navbar-collapse{
+    margin-left: 800px;
+}
+body{
+    margin-top: 0px 20px;
+    color: #f2f6fc;
+    }
+    .img-account-profile {
+        height: 10rem;
+    }
+    .rounded-circle {
+        border-radius: 50% !important;
+    }
+
+    .card-header:first-child {
+        border-radius: 0.35rem 0.35rem 0 0;
+    }
+    .card-header {
+        padding: 1rem 1.35rem;
+        margin-bottom: 0;
+        background-color: rgba(243, 67, 44, 0.295);
+        border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+    }
+    .form-control, .dataTable-input {
+        display: block;
+        width: 100%;
+        font-weight: 400;
+        line-height: 1;
+        color: #69707a;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #c5ccd6;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.35rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
